@@ -1,0 +1,117 @@
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+body
+{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: none;
+    }
+
+#nav{
+    width: 900px; /* */
+    height: 900px;
+}
+
+#nav_wrapper{
+    height:300px;
+    width: 900px;
+    background: none;
+    margin-left: auto;
+    margin-right: 1000;
+    margin-top: 65px;
+    opacity: 0.7;
+    filter:alpha (opacity=70); /*IE8 earlier*/
+}
+#nav_wrapper ul li{
+    display: inline-grid;
+    list-style: none;
+    font-weight: bold;
+    padding:30px;
+    word-spacing: 200px;
+}
+
+#nav_wrapper a{
+    display: inline-grid;
+    color:white;
+    text-decoration: none;
+    padding: 50px;
+}
+
+#nav_wrapper a:hover{
+    background-color: none;
+    color: #4a89ef;
+    font-size: 30px;
+}
+
+#nav_wrapper ul li:hover{
+    background: black;
+    transition: all 0.45s;
+    opacity: 0.9;
+    filter:alpha (opacity =90); /*IE8 earlier*/
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: none;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.active {
+    background-color: #4CAF50; /* Add an active/current color */
+}
+
+.index-intro h2 {
+    font-weight: 700;
+    font-family: Lato;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.index-intro p{
+    font-weight: 400;
+    color: white;
+    font-family: Lato;
+    font-size: 16px;
+    text-align: center;
+    line-height: 22px;
+    padding: 10px 40px;
+}
